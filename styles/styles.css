@@ -166,41 +166,19 @@ span {
 
 .about {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    gap: 4rem;
+    padding: 5rem 9%;
     background: var(--snd-bg-color);
-    padding: 4rem 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
-.about-img {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    transition: .3s ease;
-}
-
-.about-img img {
-    width: 100%;
-    border-radius: 1rem;
-    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); */
-    margin-left: 8rem;
-}
-
-.about-img:hover {
-    transform: scale(1.2);
 }
 
 .about-content {
-    flex: 2;
-    text-align: left;
+    flex: 1 1 40rem;
     padding: 2rem;
-    background: var(--bg-color);
-    border-radius: 1rem;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    margin-right: 8rem;
+    text-align: left;
 }
 
 .about-content h2 {
@@ -212,24 +190,48 @@ span {
 .about-content h3 {
     font-size: 2rem;
     color: var(--text-color);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .about-content p {
     font-size: 1.6rem;
     color: var(--text-color);
-    line-height: 1.6;
     margin-bottom: 2rem;
 }
 
 .about-content .btn {
-    font-size: 1.6rem;
-    padding: 1rem 2.5rem;
+    display: inline-block;
+    padding: 1rem 2.8rem;
     background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
     color: var(--bg-color);
-    border-radius: 2rem;
-    /* transition: background 0.3s; */
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
 }
+
+.about-content .btn:hover {
+    box-shadow: none;
+}
+
+.media-content {
+    flex: 1 1 40rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.media-content img,
+.media-content video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+}
+
+
 
 /* .about-content .btn:hover {
     background: darken(var(--main-color), 10%);
