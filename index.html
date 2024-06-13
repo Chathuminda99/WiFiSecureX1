@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFiSecureX</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="scripts/validation.js" defer></script>
+    <script src="scripts/formSubmit.js" defer></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("KYEEWPRkbnva3RN_2"); // Replace with your EmailJS user ID
+        })();
+    </script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">WiFiSecureX</a>
+        <!-- <a href="#" class="logo"><img src="images/WiFiSecureX.png" alt=""></a> -->
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#developing">Developing Team</a>
+            <a href="#project">Project Scope</a>
+            <a href="#contact">Contact</a>
+            
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Introducing</h3>
+            <h1>WiFiSecureX</h1>
+            <h3>Your <span>Wireless Security Auditor</span></h3>
+            <p>In today’s digital age, protecting your Wi-Fi network is paramount. WiFiSecureX is designed to provide you with unparalleled security, ensuring your wireless network is shielded from all potential threats. Our cutting-edge tool combines ease of use with advanced security features, making it accessible for everyone from tech novices to seasoned professionals. Discover how we can transform your wireless security today!</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="#" class="btn">Discover</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/wifisecurex.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/rpi3.png" alt="">
+        </div>
+    
+        <div class="about-content">
+            <h2 class="heading">About WiFiSecureX</h2>
+            <h3>Powering Wireless Security with Raspberry Pi</h3>
+            <p>WiFiSecureX is a cutting-edge wireless security auditing tool, designed to enhance the security of wireless networks by leveraging the compact and powerful Raspberry Pi. Our tool provides comprehensive security assessments, detecting vulnerabilities and ensuring compliance with industry standards like HIPAA and PCI DSS.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="download" id="download">
+        <div class="download_container">
+            <div class="download_content">
+                <h1>Welcome to the WiFiSecureX Feature Section</h1>
+                <ul>
+                    <li><span class="icon">🛡️</span> Comprehensive Wireless Network Scanning</li>
+                    <li><span class="icon">🛡️</span> Rogue Access Point Detection</li>
+                    <li><span class="icon">🛡️</span> Real-Time Vulnerability Assessment</li>
+                    <li><span class="icon">🛡️</span> HIPAA and PCI DSS Compliance Checks</li>
+                    <li><span class="icon">🛡️</span> Signal Strength Mapping</li>
+                    <li><span class="icon">🛡️</span> Firmware and Patch Status Analysis</li>
+                    <li><span class="icon">🛡️</span> Detailed Security Reporting</li>
+                    <li><span class="icon">🛡️</span> Customizable Security Recommendations</li>
+                </ul>
+                <div class="buttons">
+                    <button class="btn_download">Read More</button>
+                    <!-- <button class="btn_upgrade">Upgrade</button> -->
+                </div>
+            </div>
+            <div class="download_image">
+                <img src="images/wifisecurex.jpg" alt="WiFiSecureX Image">
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="pricing" id="pricing">
+        <h2 class="heading">Our <span>Pricing</span></h2>
+    
+        <div class="pricing-container">
+            <div class="pricing-box">
+                <h3>WiFind Device</h3>
+                <p class="price">$200</p>
+                <ul>
+                    <li>Free subscription for first 3 months</li>
+                    <li>7 Day moneyback guarantee</li>
+                </ul>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+    
+            <div class="pricing-box">
+                <h3>Monthly License</h3>
+                <p class="price">$9/mo</p>
+                <ul>
+                    <li>Subscription renews every month</li>
+                    <li>Patch updates</li>
+                    <li>Full technical support</li>
+                </ul>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+    
+            <div class="pricing-box">
+                <h3>Annual License</h3>
+                <p class="price">$89/yr</p>
+                <ul>
+                    <li>Subscription renews every year</li>
+                    <li>Patch updates</li>
+                    <li>Full technical support</li>
+                </ul>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="developing" id="developing">
+        <h2 class="heading">Development <span>Team</span></h2>
+    
+        <div class="dev-images">
+        <div class="developing-container">
+            <div class="developing-box">
+                <img src="images/kanisha.jpeg" alt="Kanishka Yapa">
+                <div class="developing-layer">
+                    <h4>Kanishka Yapa</h4>
+                    <h5>kanishka.y@sliit.lk</h5>
+                    <p>Supervisor</p>
+                    <a href="https://www.linkedin.com/in/kanishka-yapa-46590924/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            <div class="developing-box">
+                <img src="images/uditha.jpeg" alt="Uditha Dharmakeerthi">
+                <div class="developing-layer">
+                    <h4>Uditha Dharmakeerthi</h4>
+                    <h5>uditha.d@sliit.lk</h5>
+                    <p>Co-supervisor</p>
+                    <a href="https://www.linkedin.com/in/uditha-dharmakeerthi-84741b17/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="developing-box">
+                <img src="images/sanesh.jpg" alt="Sanesh">
+                <div class="developing-layer">
+                    <h4>Sanesh Fonseka</h4>
+                    <h5>IT20646424@my.sliit.lk</h5>
+                    <p>Group Leader</p>
+                    <a href="https://www.linkedin.com/in/sanesh-kavishka/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            <div class="developing-box">
+                <img src="images/lasitha.JPEG" alt="Lasitha">
+                <div class="developing-layer">
+                    <h4>Lasitha Bandara</h4>
+                    <h5>IT20644376@my.sliit.lk</h5>
+                    <p>Team Member</p>
+                    <a href="https://www.linkedin.com/in/lasithabandara99/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            <div class="developing-box">
+                <img src="images/dilshan.jpg" alt="Dilshan">
+                <div class="developing-layer">
+                    <h4>Dilshan Nimasha</h4>
+                    <h5>IT20645816@my.sliit.lk</h5>
+                    <p>Team Member</p>
+                    <a href="https://www.linkedin.com/in/dilshan-nimasha"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            <div class="developing-box">
+                <img src="images/konara.jpg" alt="Konara">
+                <div class="developing-layer">
+                    <h4>Thusitha Nuwan</h4>
+                    <h5>IT20666156@my.sliit.lk</h5>
+                    <p>Team Member</p>
+                    <a href="https://www.linkedin.com/in/thuziink/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+    
+            
+        </div>
+    </div>
+    </section>
+    
+    
+
+    <section class="project" id="project">
+        <h2 class="heading">Project <span>Scope</span></h2>
+    
+        <div class="project-container">
+            <div class="project-box">
+                <i class="fa-solid fa-diagram-project"></i>
+                <h3>System Diagram</h3>
+                <p>Click here to view the system diagram of the tool.</p>
+                <a href="system_diagram.html" class="btn">View Diagram</a>
+            </div>
+    
+            <div class="project-box">
+                <i class="fa-solid fa-file-alt"></i>
+                <h3>Research Paper</h3>
+                <p>Access the detailed research paper for in-depth analysis.</p>
+                <a href="research_paper.html" class="btn">Read Paper</a>
+            </div>
+    
+            <div class="project-box">
+                <i class="fa-solid fa-list"></i>
+                <h3>Methodologies</h3>
+                <p>Learn about the methodologies used in this project.</p>
+                <a href="methodologies.html" class="btn">Learn More</a>
+            </div>
+    
+            <div class="project-box">
+                <i class="fa-solid fa-calendar-alt"></i>
+                <h3>Project Timeline</h3>
+                <p>Check the timeline and milestones of the project.</p>
+                <a href="project_timeline.html" class="btn">View Timeline</a>
+            </div>
+    
+            <div class="project-box">
+                <i class="fa-solid fa-cogs"></i>
+                <h3>Technologies</h3>
+                <p>Discover the technologies used in this project.</p>
+                <a href="technologies.html" class="btn">Learn More</a>
+            </div>
+    
+            <div class="project-box">
+                <i class="fa-solid fa-lightbulb"></i>
+                <h3>Research Gap</h3>
+                <p>Understand the research gaps this project addresses.</p>
+                <a href="research_gap.html" class="btn">Learn More</a>
+            </div>
+    
+            <div class="project-box">
+                <i class="fa-solid fa-book"></i>
+                <h3>Literature Survey</h3>
+                <p>Review the existing literature and research.</p>
+                <a href="literature_survey.html" class="btn">Learn More</a>
+            </div>
+    
+            <div class="project-box">
+                <i class="fa-solid fa-exclamation-circle"></i>
+                <h3>Research Problem</h3>
+                <p>Identify the key research problems.</p>
+                <a href="research_problem.html" class="btn">Learn More</a>
+            </div>
+    
+            <div class="project-box">
+                <i class="fa-solid fa-bullseye"></i>
+                <h3>Research Objectives</h3>
+                <p>Outline the objectives of the research.</p>
+                <a href="research_objectives.html" class="btn">Learn More</a>
+            </div>
+    
+            <!-- New tile for Other Documents -->
+            <div class="project-box">
+                <i class="fa-solid fa-folder"></i>
+                <h3>Other Documents</h3>
+                <p>Contains presentations, proposals, and other related documents.</p>
+                <a href="other_documents.html" class="btn">View Documents</a>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+    <section class="testimonials" id="testimonials">
+        <h2 class="heading">What Our <span>Clients</span> Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-box">
+                <p>"WiFiSecureX has significantly improved our network security. It's easy to use and very effective."</p>
+                <h4>John Doe</h4>
+                <span>CEO, Tech Solutions</span>
+            </div>
+            <div class="testimonial-box">
+                <p>"An essential tool for any business concerned about wireless security. Highly recommended!"</p>
+                <h4>Jane Smith</h4>
+                <span>CTO, SecureNet</span>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Us</span></h2>
+        <div class="contact_container">
+            <form id="contactForm">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="phone" placeholder="Mobile Number" required>
+                    <input type="text" name="subject" placeholder="Email Subject" required>
+                </div>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @WiFiSecureX | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <!-- <script src="js/main.js"></script> -->
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.getElementById('navbar');
+
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
